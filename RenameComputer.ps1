@@ -74,10 +74,6 @@ Else {
     Rename-Computer -NewName "UKL-$fullserial" 
 }
 
-    # Set the computer name
-    #Write-Host "Renaming computer to $($newName.name)"
-    #Rename-Computer -NewName $newName.name
-
     # Remove the scheduled task
     Disable-ScheduledTask -TaskName "RenameComputer" -ErrorAction Ignore
     Unregister-ScheduledTask -TaskName "RenameComputer" -Confirm:$false -ErrorAction Ignore
