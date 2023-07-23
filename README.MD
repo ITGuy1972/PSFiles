@@ -1,6 +1,6 @@
 To set up the RenameComputer app in Intune, perform the following steps.
 
-Create the Win32 app using the CMD tool provided. Have a folde with the script, Intune ap tool and the CMD file.
+Create the Win32 app using the CMD tool provided. Have a folder with the script, Intune app tool and the CMD file.
 
 Add the RenameComputer.intunewin app to Intune and specify the following command line:
 
